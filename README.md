@@ -9,4 +9,8 @@ My goal for this port was to implement the original PET Space Invaders as close 
 
 Every change from the original PET code is noted with a PORT comment.
 
+To build:
+
+I included a shell script that should run on any *nix variant. It requires the 64Tass assembler and VICE to be installed, as it uses petcat and c1541 from the VICE distribution.
+
 Dave McMurtrie <dave@commodore.international> 2026-05-31
